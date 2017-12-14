@@ -1,0 +1,20 @@
+body {
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.center {
+    background-color: floralwhite;
+    padding: 2rem;
+}
+
+
