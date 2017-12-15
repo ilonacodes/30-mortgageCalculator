@@ -2,6 +2,7 @@ body {
     padding: 0;
     margin: 0;
     height: 100vh;
+    font-family: sans-serif;
 }
 
 .container {
@@ -10,11 +11,70 @@ body {
     justify-content: center;
     align-items: center;
     height: 100%;
+    margin: 0 2rem;
 }
 
 .center {
     background-color: floralwhite;
     padding: 2rem;
+    border: 1px solid #333;
+    border-radius: 10px;
+}
+
+.title {
+    font-size: 2rem;
+    color: #333;
+    text-align: center;
+    font-weight: 600;
+    margin-bottom: 2rem;
+}
+
+.principal-container, .rate-container, .loan-term-container {
+    display: flex;
+    justify-content: center;
+    flex: 1;
+    width: 100%;
+    margin: 1rem 0;
+}
+
+input {
+    width: 240px;
+    height: 30px;
+    outline: 0;
+    border-radius: 10px;
+    border: 1px solid #666;
+    padding-left: 10px;
+    font-size: 14px;
+}
+
+.calculate {
+    display: flex;
+    justify-content: center;
+
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+    padding: 10px 20px;
+    background-color: white;
+    border: 1px solid #333;
+    border-radius: 10px;
+    margin-top: 1rem;
+}
+
+a:hover {
+    opacity: .8;
+}
+
+.result-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+#result {
+    font-weight: 600;
 }
 
 

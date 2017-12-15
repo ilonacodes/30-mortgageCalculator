@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Mortgage Calculator</title>
     <link rel="stylesheet" href="src/index.css">
 </head>
@@ -13,15 +14,15 @@
         </div>
 
         <div class="principal-container">
-            $<input type="number" id="principal">
+            <input type="text" id="principal" placeholder="Mortgage Amount: ($)">
         </div>
 
         <div class="rate-container">
-            <input type="number" id="rate">%
+            <input type="text" id="rate" placeholder="Annual Percentage Rate: (%)">
         </div>
 
         <div class="loan-term-container">
-            <input type="number" id="loan_term">years
+            <input type="text" id="loan_term" placeholder="Amortization: (years)">
         </div>
 
         <div class="calculate">
@@ -29,10 +30,11 @@
         </div>
 
         <div class="result-container">
-            <p>Your monthly payment is</p>
-            <p id="result">$733.76</p>
+            <p>Your monthly payment is: &nbsp;</p>
+            <p id="result">$0</p>
         </div>
     </div>
 </div>
+<script src="src/index.js"></script>
 </body>
 </html>
